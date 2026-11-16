@@ -61,14 +61,19 @@ The project used GitHub for code management and QA documentation.
 - Reviewed the changes and merged the Pull Request into the `main` branch.
 - Added comments and updates to the QA issues.
 
-### 6. Verification and Testing
-The updated code includes the proposed improvements. However, physical hardware verification is still pending.
 
-The following checks are required:
-1. Verify that the LED starts in the OFF state.
-2. Check that the LED blinks at one-second intervals.
-3. Check Serial Monitor messages at 9600 baud.
-4. Confirm that the Arduino continues running without blocking delay().
+### 6. Verification and Testing
+The improved program was uploaded successfully to the Arduino Uno using COM6.
+
+The following tests were performed:
+
+1. LED initial state: Verified that the LED starts in the OFF state after reset.
+2. LED blinking: Verified approximately one-second ON and OFF intervals.
+3. Serial Monitor: Verified the startup message and LED ON/OFF messages at 9600 baud.
+4. Non-blocking timing: Confirmed that the improved code uses millis() instead of delay().
+
+**Result:** All four software and hardware behaviour checks were successfully verified.
+
 
 ### 7. Conclusion
 This project demonstrated how AI assistance can support software quality assurance in an electronics project. GitHub Issues helped document potential problems, while branches and Pull Requests supported organized code improvements.
