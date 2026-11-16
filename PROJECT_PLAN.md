@@ -21,8 +21,7 @@ To develop a basic Arduino LED blinking program, identify code quality issues us
 | 8 | Create and merge Pull Request #5 | Completed |
 | 9 | Prepare AI prompt log | Completed |
 | 10 | Prepare QA report | Completed |
-| 11 | Verify program using Arduino hardware | Pending |
-| 12 | Prepare final report and submit on Moodle | Pending |
+| 11 | Verify program using Arduino hardware | Completed |
 
 ## 3. Tools and Technologies
 - Arduino Uno
@@ -38,7 +37,7 @@ GitHub was used to track code changes, document QA issues, and manage improvemen
 A separate branch named qa-improvements was used to implement the changes. Pull Request #5 was created and successfully merged into the main branch.
 
 ## 5. Current Project Status
-The code improvements and GitHub documentation have been completed. Physical hardware testing and final Moodle submission are pending.
+Development, code improvement, GitHub issue tracking, and hardware testing: Completed.
 
 ## 6. Conclusion
 The project followed a structured workflow involving planning, code development, AI-assisted QA, issue tracking, code improvement, and documentation. GitHub helped organize the project activities and maintain the code history.
